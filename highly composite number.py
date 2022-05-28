@@ -1,4 +1,3 @@
-from math import sqrt
 def nb_divisors(x):
     nb=1
     for i in range(2,x//2+1):
