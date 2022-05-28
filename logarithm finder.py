@@ -2,14 +2,18 @@
 #DONE :)
 
 def newton_log(x:float,n:float=1.0) -> float:
-  try:
-    for _ in range(1000):
-      n= f(n,x)
-    return n
-  except:
-    return newton_log(x/100)+newton_log(100)  
+	try:
+		for _ in range(1000):
+			n = f(n,x)
+		return n
+	except:
+		return newton_log(x/1000)+a 
 
 
-f=lambda n,x : n - (e**n-x)/(e**n)
+f = lambda n,x : n - (e**n-x)/(e**n)
 e=2.718281828459045
-print(newton_log(int(input("ln(x) , x=? : "))))
+a:float = newton_log (1000)
+for _ in range(1,1000):
+	p:float=newton_log( _ )
+
+print('done')
